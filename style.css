@@ -1,0 +1,273 @@
+body{width:100vw;height: 5508px ;background-color: #FDFBF4;margin: auto;}
+.wraper{width: 1200px;height: 5354px;margin: auto;}
+.navbar{width: 100%;overflow: auto; margin-bottom: -60px;margin-top: 50px;}
+.navbar a
+    {float: left;
+    padding: 12px;
+    font-size: 17px;
+    font-family: 'poppin';
+    margin: 0;
+    text-decoration: none;
+    color:#335A35;}
+
+    .navbar a:hover {
+        color:#335A35;
+        text-decoration: underline;
+
+      }
+      
+      
+   
+
+.container{width: 100%;margin-left: 360px; margin-right: 360px; padding-top:47px;}
+.main{width:100%; height:920px;background-image: url(/img/main.png); background-repeat: no-repeat;}
+.main h1{font-family: 'NEIMA',serif, light;
+        color:#335A35;
+        font-size: 5em;
+        text-align: center;
+        position: relative;
+        top:40%;}
+
+.main p{font-family: rixmmjse-pro, serif;
+    font-style: normal;
+    font-weight: 300;
+    width: 558px;
+    text-align: center;
+    color: #343434;
+    font-size: 0.8em;
+    line-height: 2em;
+    position: relative;
+    top:37%;
+    margin: auto;}
+
+
+
+
+
+.plantlist{width: 100%; height: 1679px;margin: 0;font-family: 'NEIMA',serif; color: #335A35;
+            background-image: url(/img/list-bg.png);
+            background-repeat: no-repeat;}
+.plantlist h1{font-size:9em;padding-left: 102px; padding-top: 204px; padding-bottom: 97px;margin: 0;}
+.circle {display: block;position: absolute; top: 1%;}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-rows: auto ;
+    grid-template-columns: auto; 
+    }
+
+.parent p{font-size: 3em;padding: 32px;margin: 0;}
+
+    .div1 { grid-area: 1 / 1 / 5 / 5; height: 346px;overflow: hidden;
+            background-image: url(/img/lemon.png);background-repeat: no-repeat; background-size: cover;}
+    .div2 { grid-area: 1 / 5 / 5 / 9; overflow: hidden;background-size: cover;
+        background-image: url(/img/olive.png);
+        background-repeat: no-repeat;
+        background-color: #CFD6CF;}
+    .div3 { grid-area: 1 / 9 / 5 / 13; overflow: hidden;
+        background-image: url(/img/avocado.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #E3DFD2;}
+    .div4 { grid-area: 5 / 1 / 9 / 7;height: 346px; overflow: hidden;
+            background-image: url(/img/kiwi.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #EDE7D6;}
+    .div5 { grid-area: 5 / 7 / 9 / 13; overflow: hidden;
+        background-image: url(/img/pig.png);background-repeat: no-repeat;background-size: cover;}
+    .div6 { grid-area: 9 / 5 / 13 / 13; height: 346px;overflow: hidden;
+        background-image: url(/img/coffee.png);
+        background-size: cover;
+        background-color: #EFDFCD;}
+    .div7 { grid-area: 9 / 1 / 13 / 5;overflow: hidden; 
+        background-image: url(/img/bluberry.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #E1DFE3;}
+
+.parent a{text-decoration: none; color: #335A35;}
+
+.parent .div1:hover
+{background-color: #ffd255; color: #EDE7D6; background-image: none;}
+
+.parent .div2:hover
+{background-color: #346e60; color: #EDE7D6;background-image: none; }
+.parent .div3:hover
+{background-color: #bbce52; color:#EDE7D6;background-image: none;}
+.parent .div4:hover
+{background-color: #157a5c;color:#EDE7D6;background-image: none;}
+.parent .div5:hover
+{background-color: #863b18;color:#EDE7D6;background-image: none;}
+.parent .div6:hover
+{background-color: #552e22;color:#EDE7D6; background-image: none;}
+.parent .div7:hover
+{background-color: #39254d;color:#EDE7D6; background-image: none;}
+
+
+.parent .hidden{opacity: 0;}
+.parent .hidden:hover{opacity: 100%; display: inline-block; font-size: 3em;text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gallery{position: relative;width: 100%;height: 2573px;
+        background-image: url(/img/g-bg.png);}
+
+.gallery h1{font-family: 'NEIMA',serif, regular;
+  color:#335A35;
+  font-size: 9em;
+  text-align: right;
+  position: relative;
+  margin: 0;
+  padding-right: 102px;
+  padding-top: 200px;}
+
+.pic1{display: block;
+      width: 517px;
+      height: 727px;
+      position: absolute;
+      top:28%;
+      left: 33%;
+      overflow: hidden;}
+
+
+.pic2{display: block;
+      width: 329px;
+      height: 287px;
+      position: absolute;
+      top:50%;
+      left: 0;
+      overflow: hidden;
+}
+
+
+.pic3{display: block;
+      position: absolute;
+      width: 304px;
+      height: 288px;
+      top: 65%;
+      left: 25%;
+      overflow: hidden;}
+
+.pic4{display: block;
+        position: absolute;
+        top: 63%;
+        right: 0;
+        overflow: hidden;}
+
+.pic5{display: block;
+  position: absolute;
+  top: 80%;
+  left: 7%;
+  overflow: hidden;}
+
+
+
+
+footer{width: 1200px;background-color: #335A35;color: #FDFBF4;
+      height: 360px;
+      font-family: 'poppins',sans-serif;
+      font-weight: 600;
+      padding-top: 50px;
+ 
+      }
+
+
+      .gallery img {
+        transition: all 0.2s linear;
+      }
+      .gallery img:hover {
+        transform: scale(1.4);overflow: hidden;
+      }
+      
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&family=Poppins:wght@600&display=swap');
+      </style>
+
+
+@font-face {
+    font-family: NEIMA;
+    src: url(NEIMA.woff) format('woff')
+    
+  }
+
+
+/*
+  @media only screen and (max-width: 769px)and (min-device-width: 345px)  { 
+    
+
+    .gallery h1{font-size: 6em; text-align: center; margin: auto; padding: 0;}
+    .plantlist h1{font-size: 6em; text-align: center; margin: auto;
+    padding-top: 20%;padding-left: 20%;padding-right: 20%;}
+    
+    .main p{font-size: 1.1em;
+            line-height: 2em;
+          line-break: strict;}
+
+    .parent .hidden:hover{font-size: 3em; overflow: hidden; line-break: normal;}
+  }
+*/
+
+  @media only screen and (max-width: 769px) and (min-device-width: 375px){ 
+
+
+    body{width: 100vw; }
+    .wraper, .container, .gallery, .main, .plantlist{
+      width: 100vw;
+      overflow: hidden;
+    }
+
+    .main p{width: auto; line-break: auto;}
+    .main{margin-top:50px; }
+    footer{overflow: visible;}
+
+    
+    .gallery img {
+      width: 73%;
+      display: block;
+      
+      float: left;
+      ;}
+
+      .gallery h1{font-size: 6em; text-align: center; margin: auto; padding: 0;}
+      .plantlist h1{font-size: 6em; text-align: center; margin: auto;
+      padding-top: 20%;padding-left: 20%;padding-right: 20%;}
+      
+      .main p{font-size: 15px;
+              line-height: 2em;
+            line-break: normal;}
+  
+      .parent .hidden:hover{font-size: 2em; overflow: hidden; line-break: normal;
+      }
+    }
+
+
+
+      .pic3{display: block;
+        position: absolute;
+        width: 304px;
+        height: 288px;
+        top: 85%;
+        left: 55%;
+        overflow: hidden;}
+
+      
+  }
